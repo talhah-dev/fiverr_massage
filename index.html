@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Hut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- seo -->
+    <meta name="description"
+        content="The Coffee Hut – your daily grind made comfortable. Freshly brewed coffee, delicious pastries, and cozy vibes. Visit us or shop our coffee beans and blends online.">
+    <meta name="keywords"
+        content="The Coffee Hut, coffee shop, fresh coffee, coffee beans, pastries, café, coffee blends, best coffee, cozy café, local coffee shop, buy coffee online">
+
+</head>
+
+<body class="overflow-x-hidden">
+
+    <section class="relative overflow-x-hidden banner">
+
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar">
+            <div class="nav-inner">
+                <a href="/index.html" class="logo">
+                    <img src="/docs/assets/images/logo.avif" alt="logo">
+                </a>
+
+                <!-- Desktop links -->
+                <ul id="navbarLinks" class="nav-links">
+                    <li><a href="/index.html" class="nav-link">Home</a></li>
+                    <li><a href="/about.html" class="nav-link">About Us</a></li>
+                    <li><a href="/visit.html" class="nav-link">Visit Us</a></li>
+                    <li><a href="/gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="/catering.html" class="nav-link">Catering</a></li>
+                </ul>
+
+                <!-- Mobile menu button -->
+                <i id="mobileMenuBtn" class="fa-solid fa-bars menu-toggle" aria-label="Open menu" role="button"
+                    tabindex="0"></i>
+            </div>
+        </nav>
+
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+            <div class="mobile-menu-header">
+                <i class="fa-solid fa-xmark mobileMenuCloseBtn close-btn" aria-label="Close menu" role="button"
+                    tabindex="0"></i>
+            </div>
+            <div class="mobile-menu-body">
+                <ul class="mobile-links">
+                    <li><a href="/index.html" class="mobile-link mobileMenuCloseBtn">Home</a></li>
+                    <li><a href="/about.html" class="mobile-link mobileMenuCloseBtn">About Us</a></li>
+                    <li><a href="/visit.html" class="mobile-link mobileMenuCloseBtn">Visit Us</a></li>
+                    <li><a href="/gallery.html" class="mobile-link mobileMenuCloseBtn">Gallery</a></li>
+                    <li><a href="/catering.html" class="mobile-link mobileMenuCloseBtn">Catering</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="hero-section" style="background-image:url('/path/to/your/hero.jpg')">
+            <!-- Content -->
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <h1 data-aos="fade-up" data-aos-delay="200" class="hero-title playfair textShadow">
+                        Traditionelle Thaimassage in
+                        Mühlhausen-Ehingen
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="hero-text playfair">
+                        Bei uns legen Sie Ihren Körper und Ihren Geist in gute Hände!
+                    </p>
+
+                    <div data-aos="fade-up" data-aos-delay="600" class="hero-actions">
+                        <a href="/" class="btn-primary">Unsere Massagen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="about-split" aria-labelledby="about-title">
+        <!-- Left: photo on olive background -->
+        <div class="about-left">
+            <figure class="photo-frame">
+                <img src="/docs/assets/images/img1.avif" alt="Amporn in the studio">
+            </figure>
+        </div>
+
+        <!-- Right: icon, heading, text -->
+        <div class="about-right">
+            <div class="about-content">
+                <!-- Simple decorative icon -->
+                <svg class="about-icon" viewBox="0 0 64 64" aria-hidden="true">
+                    <circle cx="32" cy="32" r="21" fill="none" stroke="#3b5d57" stroke-width="2" />
+                    <circle cx="32" cy="32" r="2.5" fill="#3b5d57" />
+                    <g stroke="#3b5d57" stroke-width="2" fill="none" stroke-linecap="round">
+                        <path d="M32 9v10M32 45v10M9 32h10M45 32h10" />
+                        <path d="M17 17l7 7M40 40l7 7M47 17l-7 7M17 47l7-7" />
+                    </g>
+                </svg>
+
+                <h2 id="about-title" class="about-title playfair">Ich bin Amporn</h2>
+
+                <p class="about-text">
+                    Unsere Anwendungen sind für die unterschiedlichsten Menschen und für verschiedene Bereiche ideal.
+                    So können Sie sich bei uns tiefenentspannt bei einer Öl-Massage treiben lassen als auch Ihre
+                    verspannte
+                    Muskulatur bei einer anspruchsvollen traditionellen Thai-Massage lockern lassen. Besuchen Sie uns in
+                    Mühlhausen oder stellen Sie gleich hier eine Terminanfrage.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" aria-labelledby="services-title">
+        <div class="wrap">
+
+            <!-- Header -->
+            <div class="services-head">
+                <!-- simple leaf icon -->
+                <svg class="services-icon" viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M32 34c8 0 14-6 14-14C38 20 32 26 32 34Z" fill="none" stroke="#3b5d57" stroke-width="2" />
+                    <path d="M32 34c-8 0-14-6-14-14 8 0 14 6 14 14Z" fill="none" stroke="#3b5d57" stroke-width="2" />
+                    <path d="M30 26c0 10-6 18-16 22 0-10 8-16 16-22Zm4 0c0 10 6 18 16 22 0-10-8-16-16-22Z" fill="none"
+                        stroke="#3b5d57" stroke-width="2" />
+                </svg>
+
+                <h2 id="services-title" class="services-title">Unsere Massagen</h2>
+                <p class="services-sub">
+                    Wählen Sie zwischen verschiedenen Anwendungen von stimulierend bis lockernd oder entspannend.
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div class="card-grid">
+                <!-- 1 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Traditionelle Thai-Massage</div>
+                </article>
+
+                <!-- 2 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1599058945522-28d584b2b3d2?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Thai Aromaöl Massage</div>
+                </article>
+
+                <!-- 3 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1556228453-efd1f54ac330?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Thai-Hot-Stone Massage</div>
+                </article>
+
+                <!-- 4 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1587019158091-1a1df0f6f9b0?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Thai-Kräuterstempel-Massage</div>
+                </article>
+
+                <!-- 5 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Kopf-, Nacken- &amp; Schultermassage</div>
+                </article>
+
+                <!-- 6 -->
+                <article class="card">
+                    <figure class="card-media">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc03f?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                    </figure>
+                    <div class="card-title">Thai-Fußmassage</div>
+                </article>
+            </div>
+
+            <!-- CTA -->
+            <div class="services-cta">
+                <a href="#" class="btn">Termin vereinbaren</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" aria-labelledby="kontakt-title">
+        <div class="contact-wrap">
+            <!-- Left: Info -->
+            <aside class="contact-info">
+                <div class="info-icon" aria-hidden="true">
+                    <!-- tiny decorative icon -->
+                    <svg viewBox="0 0 64 64">
+                        <path
+                            d="M32 10c-6 10-6 20 0 30 6-10 6-20 0-30Zm0 14c-10-6-20-6-30 0 10 6 20 6 30 0Zm0 0c10-6 20-6 30 0-10 6-20 6-30 0Zm0 0c-6 10-6 20 0 30 6-10 6-20 0-30Z"
+                            fill="none" stroke="#2f5b55" stroke-width="2" />
+                    </svg>
+                </div>
+
+                <h2 id="kontakt-title" class="info-title">Kontakt</h2>
+
+                <address class="info-block">
+                    Schloßstraße 59<br>
+                    78259 Mühlhausen-Ehingen<br>
+                    Tel.: <a href="tel:+4917661057976">0176 610 579 76</a>
+                </address>
+
+                <div class="info-block">
+                    <h3 class="info-sub">Öffnungszeiten</h3>
+                    Dienstag – Freitag: 09.00 – 17.00 Uhr<br>
+                    Samstag: 10.00 – 15.00 Uhr<br>
+                    Montag Ruhetag
+                </div>
+
+                <p class="info-block">
+                    Termine außerhalb der Öffnungszeiten sind auf Anfrage möglich.
+                </p>
+
+                <p class="info-block">
+                    Bitte benutzen Sie hierzu das Kontaktformular oder rufen Sie uns an.
+                </p>
+
+                <p class="info-strong">Keine Erotikmassagen bei uns erhältlich!</p>
+            </aside>
+
+            <!-- Right: Form -->
+            <div class="contact-form">
+                <h2 class="form-title">Fragen Sie Ihren Wunschtermin über unser Formular an.</h2>
+
+                <form action="#" method="post" novalidate>
+                    <div class="field">
+                        <label for="email">E-Mail-Adresse <span>*</span></label>
+                        <input id="email" name="email" type="email" required placeholder="z. B. beispiel@beispiel.com">
+                    </div>
+
+                    <div class="field">
+                        <label for="vorname">Vorname <span>*</span></label>
+                        <input id="vorname" name="vorname" type="text" required placeholder="Vorname">
+                    </div>
+
+                    <div class="field">
+                        <label for="telefon">Telefon <span>*</span></label>
+                        <input id="telefon" name="telefon" type="tel" required placeholder="Telefon">
+                    </div>
+
+                    <div class="field">
+                        <label for="massage">Wählen Sie Ihre Massage <span>*</span></label>
+                        <div class="select-wrap">
+                            <select id="massage" name="massage" required>
+                                <option value="" selected disabled>Massage wählen...</option>
+                                <option>Traditionelle Thai-Massage</option>
+                                <option>Thai-Öl-Massage</option>
+                                <option>Paarmassage Traditionell oder Thai-Öl</option>
+                                <option>Thai-Kräuter-Stempel-Massage</option>
+                                <option>Thai-Hot-Stone Massage</option>
+                                <option>Ich habe eine andere Anfrage</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="msg">Nachricht <span>*</span></label>
+                        <textarea id="msg" name="message" rows="5" required
+                            placeholder="Bitte geben Sie hier Ihr Wunschdatum und Uhrzeit für die Massage ein. Wir werden uns dann telefonisch bei Ihnen melden, um die Massage zu bestätigen."></textarea>
+                    </div>
+
+                    <div class="field field-inline">
+                        <label class="check">
+                            <input type="checkbox" id="privacy" required>
+                            <span class="checkmark" aria-hidden="true"></span>
+                            <span>Ich habe die Datenschutzerklärung zur Kenntnis genommen. <a
+                                    href="#">Datenschutzerklärung</a></span>
+                        </label>
+                    </div>
+
+                    <div class="actions">
+                        <button type="submit" class="btn">Senden</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./docs/javascript/global.js"></script>
+</body>
+
+</html>
