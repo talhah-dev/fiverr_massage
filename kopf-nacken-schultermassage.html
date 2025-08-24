@@ -21,37 +21,74 @@
     <meta name="description"
         content="Thaimassage Sawasdee in Mühlhausen-Ehingen. Lernen Sie unsere Massagenn kennen und vereinbaren Sie jetzt Ihrem Massagetermin!">
 </head>
-
 <style>
-    section.gallery {
-        max-width: 1200px;
+    section.pricing {
+        max-width: 800px;
         margin: auto;
-        padding: 5rem 1rem;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin-bottom: 12px;
+        color: #234e4a;
+    }
+
+    h2 {
+        font-size: clamp(26px, 4vw, 36px);
+        margin-bottom: 60px;
+        font-weight: 400;
+        color: #234e4a;
     }
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        justify-items: center;
     }
 
-    .grid img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 6px;
-        display: block;
-        transition: transform 0.3s ease;
+    .price-card {
+        text-align: center;
     }
 
-    .grid img:hover {
-        transform: scale(1.03);
+    .price-card .price {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    .price-card .time {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #234e4a;
+    }
+
+    .price-card button {
+        padding: 12px 22px;
+        font-size: 15px;
+        font-weight: 400;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background: #1f1f1f;
+        color: #fff;
+        transition: background 0.3s ease;
+    }
+
+    .price-card button a {
+        text-decoration: none;
+    }
+
+    .price-card button:hover {
+        background: #333;
     }
 </style>
 
 <body class="overflow-x-hidden">
 
-    <section class="relative overflow-x-hidden banner">
+    <section class="relative overflow-x-hidden kopf-nacken-schultermassage-banner">
 
         <!-- Navbar -->
         <nav id="navbar" class="navbar">
@@ -96,38 +133,89 @@
             <div class="hero-inner">
                 <div class="hero-content">
                     <h1 data-aos="fade-up" data-aos-delay="200" class="hero-title playfair textShadow">
-                        Traditionelle Thaimassage in
-                        Mühlhausen-Ehingen - Galerie
+                        Kopf-, Nacken & Schultermassage in Mühlhausen-Ehingen
+
                     </h1>
 
-                    <p data-aos="fade-up" data-aos-delay="400" class="hero-text playfair">
-                        Unser Thaimassagestudio in Bildern
-
-                    </p>
-
-                    <div data-aos="fade-up" data-aos-delay="600" class="hero-actions">
-                        <a href="#massagen" class="btn-primary">Unsere Massagen</a>
+                    <div data-aos="fade-up" style="margin-top: 2rem;" data-aos-delay="600" class="hero-actions">
+                        <a href="/index.html" class="btn-primary">Termin vereinbaren</a>
                     </div>
                 </div>
             </div>
         </section>
     </section>
 
-    <section class="gallery">
-        <div class="grid">
-            <img src="/docs/assets/images/slider (1).jpg" alt="Galerie Bild 1">
-            <img src="/docs/assets/images/slider (2).jpg" alt="Galerie Bild 2">
-            <img src="/docs/assets/images/slider (3).jpg" alt="Galerie Bild 3">
-            <img src="/docs/assets/images/slider (4).jpg" alt="Galerie Bild 4">
-            <img src="/docs/assets/images/slider (5).jpg" alt="Galerie Bild 5">
-            <img src="/docs/assets/images/slider (6).jpg" alt="Galerie Bild 6">
-            <img src="/docs/assets/images/slider (7).jpg" alt="Galerie Bild 6">
-            <img src="/docs/assets/images/slider (8).jpg" alt="Galerie Bild 6">
-            <img src="/docs/assets/images/slider (9).jpg" alt="Galerie Bild 6">
-            <img src="/docs/assets/images/slider (10).jpg" alt="Galerie Bild 6">
-            <img src="/docs/assets/images/slider (11).jpg" alt="Galerie Bild 6">
+    <section class="about-split" aria-labelledby="about-title">
+        <!-- Left: photo on olive background -->
+        <div class="about-left">
+            <figure class="photo-frame">
+                <img src="/docs/assets/images/kopf-nacken-schultermassage2.avif" alt="Amporn in the studio">
+            </figure>
+        </div>
+
+        <!-- Right: icon, heading, text -->
+        <div class="about-right">
+            <div class="about-content">
+                <!-- Simple decorative icon -->
+                <svg class="about-icon" viewBox="0 0 64 64" aria-hidden="true">
+                    <circle cx="32" cy="32" r="21" fill="none" stroke="#3b5d57" stroke-width="2" />
+                    <circle cx="32" cy="32" r="2.5" fill="#3b5d57" />
+                    <g stroke="#3b5d57" stroke-width="2" fill="none" stroke-linecap="round">
+                        <path d="M32 9v10M32 45v10M9 32h10M45 32h10" />
+                        <path d="M17 17l7 7M40 40l7 7M47 17l-7 7M17 47l7-7" />
+                    </g>
+                </svg>
+
+                <h2 id="about-title" class="about-title playfair">Kopf-, Nacken & Schultermassage
+
+                </h2>
+
+                <p class="about-text">
+
+                    Bei schmerzhaften Verspannungen im Kopf.- Nacken- und Rückenbereich kann diese Massage Linderung und
+                    Abhilfe schaffen.
+
+                    <br><br>
+
+                    Mit speziellen Massagegriffen und Drucktechniken werden in einem sehr harmonischen Ablauf die
+                    Verspannungen und Blockaden dieser sehr beanspruchten Körperregion gelöst und somit entspannt.
+
+
+
+
+                </p>
+            </div>
         </div>
     </section>
+
+
+    <div class="" style="background-color: #f2ece4;">
+        <section class="pricing">
+            <div class="icon">✤</div>
+            <h2 class="playfair">Preise Kopf-, Nacken & Schultermassage</h2>
+
+            <div class="grid">
+                <div class="price-card">
+                    <div class="price playfair">30€</div>
+                    <div class="time">30 Minuten</div>
+                    <button>
+                        <a href="/index.html#kontakt">
+                            Termin vereinbaren
+                        </a>
+                    </button>
+                </div>
+                <div class="price-card">
+                    <div class="price playfair">50€</div>
+                    <div class="time">60 Minuten</div>
+                    <button>
+                        <a href="/index.html#kontakt">
+                            Termin vereinbaren
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <footer class="site-footer">
         <div class="footer-wrap">

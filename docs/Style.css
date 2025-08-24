@@ -233,7 +233,7 @@ input:user-invalid {
   width: 100%;
   margin-left: auto;
   margin-right: auto;       /* mx-auto */
-  font-weight: 600;         /* font-semibold */
+  font-weight: 500;         /* font-semibold */
   color: #f4f4f5;           /* text-zinc-100 */
   text-transform: capitalize;
   line-height: 1.25;        /* leading-tight */
@@ -846,6 +846,28 @@ section.testimonials {
   .traditionelle-thaimassage-banner{
         background: linear-gradient(#000000a1, #000000a1),
         url(/docs/assets/images/traditionelle-thaimassage.avif) no-repeat center center;
+    background-size: cover;
+  }
+
+  .thai-aromaöl-massage-banner{
+        background: linear-gradient(#000000a1, #000000a1),
+        url(/docs/assets/images/thai-aromaöl-massage.avif) no-repeat center center;
+    background-size: cover;
+  }
+
+  .kraeuterstempelmassage-banner{
+        background: linear-gradient(#000000a1, #000000a1),
+        url(/docs/assets/images/kraeuterstempelmassage.avif) no-repeat center center;
+    background-size: cover;
+  }
+  .kopf-nacken-schultermassage-banner{
+        background: linear-gradient(#000000a1, #000000a1),
+        url(/docs/assets/images/kopf-nacken-schultermassage.avif) no-repeat center center;
+    background-size: cover;
+  }
+  .fussmassage-banner{
+        background: linear-gradient(#000000a1, #000000a1),
+        url(/docs/assets/images/fussmassage.avif) no-repeat center center;
     background-size: cover;
   }
     

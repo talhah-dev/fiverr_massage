@@ -21,104 +21,74 @@
     <meta name="description"
         content="Thaimassage Sawasdee in Mühlhausen-Ehingen. Lernen Sie unsere Massagenn kennen und vereinbaren Sie jetzt Ihrem Massagetermin!">
 </head>
-
 <style>
-    .form-container {
-        max-width: 1000px;
+    section.pricing {
+        max-width: 800px;
         margin: auto;
-        padding: 6rem 16px;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin-bottom: 12px;
+        color: #234e4a;
     }
 
     h2 {
-        font-size: 28px;
-        margin-bottom: 30px;
+        font-size: clamp(26px, 4vw, 36px);
+        margin-bottom: 60px;
         font-weight: 400;
+        color: #234e4a;
     }
 
-    form {
+    .grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        justify-items: center;
     }
 
-    label {
-        display: block;
-        margin-bottom: 6px;
+    .price-card {
+        text-align: center;
+    }
+
+    .price-card .price {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    .price-card .time {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #234e4a;
+    }
+
+    .price-card button {
+        padding: 12px 22px;
         font-size: 15px;
-        font-weight: 500;
-    }
-
-    input,
-    select,
-    textarea {
-        width: 100%;
-        padding: 16px;
+        font-weight: 400;
         border: none;
-        border-radius: 12px;
+        border-radius: 4px;
+        cursor: pointer;
         background: #1f1f1f;
         color: #fff;
-        font-size: 15px;
-        outline: none;
-    }
-
-    input::placeholder,
-    textarea::placeholder {
-        color: #bdbdbd;
-    }
-
-    select {
-        appearance: none;
-        background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
-        background-repeat: no-repeat;
-        background-position: right 16px center;
-        background-size: 18px;
-    }
-
-    textarea {
-        grid-column: span 2;
-        min-height: 100px;
-        resize: vertical;
-    }
-
-    .note,
-    .field-inline {
-        grid-column: span 2;
-    }
-
-    button {
-        grid-column: span 2;
-        padding: 14px;
-        font-size: 16px;
-        font-weight: 600;
-        border: none;
-        border-radius: 12px;
-        cursor: pointer;
-        background: #b5b1ae;
-        color: #373533;
         transition: background 0.3s ease;
     }
 
-    button:hover {
-        background: #1a2df3;
+    .price-card button a {
+        text-decoration: none;
     }
 
-    @media(max-width: 768px) {
-        form {
-            grid-template-columns: 1fr;
-        }
-
-        textarea,
-        button,
-        .note,
-        .field-inline {
-            grid-column: span 1;
-        }
+    .price-card button:hover {
+        background: #333;
     }
 </style>
 
 <body class="overflow-x-hidden">
 
-    <section class="relative overflow-x-hidden banner">
+    <section class="relative overflow-x-hidden kraeuterstempelmassage-banner">
 
         <!-- Navbar -->
         <nav id="navbar" class="navbar">
@@ -163,26 +133,23 @@
             <div class="hero-inner">
                 <div class="hero-content">
                     <h1 data-aos="fade-up" data-aos-delay="200" class="hero-title playfair textShadow">
-                        Thaimassage Gutscheine
+                        Thaimassage mit Aromaöl in
+                        Mühlhausen-Ehingen
                     </h1>
 
-                    <p data-aos="fade-up" data-aos-delay="400" class="hero-text playfair">
-                        Erwerben Sie Ihren Gutschein bequem online.
-                    </p>
-
-                    <div data-aos="fade-up" data-aos-delay="600" class="hero-actions">
-                        <a href="/index.html#massagen" class="btn-primary">Unsere Massagen</a>
+                    <div data-aos="fade-up" style="margin-top: 2rem;" data-aos-delay="600" class="hero-actions">
+                        <a href="/index.html" class="btn-primary">Termin vereinbaren</a>
                     </div>
                 </div>
             </div>
         </section>
     </section>
 
-        <section class="about-split" aria-labelledby="about-title">
+    <section class="about-split" aria-labelledby="about-title">
         <!-- Left: photo on olive background -->
         <div class="about-left">
             <figure class="photo-frame">
-                <img src="/docs/assets/images/slider (8).jpg" alt="Amporn in the studio">
+                <img src="/docs/assets/images/kraeuterstempelmassage2.avif" alt="Amporn in the studio">
             </figure>
         </div>
 
@@ -199,30 +166,23 @@
                     </g>
                 </svg>
 
-                <h2 id="about-title" class="about-title playfair">So funktioniert es!
+                <h2 id="about-title" class="about-title playfair">Thai-Kräuterstempel-Massage
                 </h2>
 
                 <p class="about-text">
-                    Sie können im Formular unten folgendes wählen:
-                    <br>
-                    *1. Gutschein nach Hause senden lassen
-                    <br>
-                    **2. Gutschein im Laden abholen**
-                    <br><br>
-                    *1 = Sie erhalten eine E-Mail, mit den Informationen für die weitere Vorgehensweise
-                    <br>
-                    Referenztext: Gutschein Thaimassage
+
+                    Die Kräuter-Stempel-Massage ist eine Kombination aus klassischen Massageelementen und Massage durch
+                    Kräuterstempel.
 
                     <br><br>
 
-                    <strong>Wir versenden Ihren angeforderten Gutscheine per Einschreiben, hier kommen 5 Euro
-                        Versandgebühr
-                        hinzu.</strong>
-
+                    Die Kräuterstempel werden gefüllt mit erlesenen Kräutern, Gewürzen und Früchten, die bei Erhitzung
+                    und Druck auf den Körper die Wirkung ätherischer Öle entfalten.
                     <br><br>
 
-                    **2 = Sie bestellen Ihren Gutschein online auf unserer Webseite, wir bereiten alles für Sie vor und
-                    Sie holen Ihren Gutschein bei uns im Laden ab und bezahlen vor Ort.
+
+                    Dadurch kann mäßig bis stark verschiedene Bereiche stimuliert werden, je nach Befinden und Wünschen
+                    des Kunden. Versuchen Sie es aus!
 
 
                 </p>
@@ -232,106 +192,32 @@
 
 
     <div class="" style="background-color: #f2ece4;">
-        <section class="testimonials" style="padding: 80px 20px;">
+        <section class="pricing">
             <div class="icon">✤</div>
-            <h2>Massage Gutschein online anfordern</h2>
+            <h2 class="playfair">Preise Thai-Kräuterstempel-Massage</h2>
 
-            <div class="swiper-slide">
-                <p class="testimonial-text">
-                    Bitte wählen Sie zwischen Gutschein nach Hause senden lassen, oder im Laden abholen.
-                </p>
+            <div class="grid">
+                <div class="price-card">
+                    <div class="price playfair">90€</div>
+                    <div class="time">90 Minuten</div>
+                    <button>
+                        <a href="/index.html#kontakt">
+                            Termin vereinbaren
+                        </a>
+                    </button>
+                </div>
+                <div class="price-card">
+                    <div class="price playfair">120€</div>
+                    <div class="time">120 Minuten</div>
+                    <button>
+                        <a href="/index.html#kontakt">
+                            Termin vereinbaren
+                        </a>
+                    </button>
+                </div>
             </div>
         </section>
     </div>
-
-    <div class="" style="background-color: #ebdfcf;">
-        <div class="form-container">
-            <h2>Gutschein anfordern</h2>
-    
-            <form>
-                <!-- Left -->
-                <div>
-                    <label for="email">E-Mail-Adresse *</label>
-                    <input type="email" id="email" placeholder="z. B. beispiel@beispiel.com" required>
-                </div>
-    
-                <div>
-                    <label for="vorname">Vorname *</label>
-                    <input type="text" id="vorname" placeholder="Vorname" required>
-                </div>
-    
-                <div>
-                    <label for="nachname">Nachname *</label>
-                    <input type="text" id="nachname" placeholder="Nachname" required>
-                </div>
-    
-                <div>
-                    <label for="adresse">Adresse *</label>
-                    <input type="text" id="adresse" placeholder="Adresse" required>
-                </div>
-    
-                <div>
-                    <label for="plz">PLZ / Ort *</label>
-                    <input type="text" id="plz" placeholder="Bitte hier PLZ und Ort eintragen" required>
-                </div>
-    
-                <div>
-                    <label for="telefon">Telefon *</label>
-                    <input type="tel" id="telefon" placeholder="Telefon" required>
-                </div>
-    
-                <div>
-                    <label for="massage">Ich möchte folgende Massage verschenken: *</label>
-                    <select id="massage" required>
-                        <option value="">Massage wählen...</option>
-                        <option>60 Min. - 48€ | Traditionelle Thai-Massage</option>
-                        <option>90 Min. - 68€ | Traditionelle Thai-Massage</option>
-                        <option>120 Min. - 90€ | Traditionelle Thai-Massage</option>
-                        <option>60 Min. - 50€ | Thai Aromaöl Massage</option>
-                        <option>90 Min. - 70€ | Thai Aromaöl Massage</option>
-                        <option>120 Min. - 95€ | Thai Aromaöl Massage</option>
-                        <option>90 Min. - 85€ | Thai Hot-Stone Massage</option>
-                        <option>120 Min. - 110€ | Thai Hot-Stone Massage</option>
-                        <option>90 Min. - 90€ | Thai Kräuterstempel Massage</option>
-                        <option>120 Min. - 120€ | Thai Kräuterstempel Massage</option>
-                        <option>30 Min. - 30€ | Kopf-Nacken-Schulter-Massage</option>
-                        <option>60 Min. - 50€ | Kopf-Nacken-Schulter-Massage</option>
-                        <option>30 Min. - 30€ | Fußmassage</option>
-                        <option>60 Min. - 50€ | Fußmassage</option>
-                        <option>60 Min. - 95€ | Partnermassage</option>
-                        <option>90 Min. - 130€ | Partnermassage</option>
-                        <option>120 Min. - 180€ | Partnermassage</option>
-                    </select>
-                </div>
-    
-                <div>
-                    <label for="erhalten">Wie möchten Sie den Gutschein erhalten? *</label>
-                    <select id="erhalten" required>
-                        <option value="">bitte wählen Sie aus...</option>
-                        <option>1. Gutschein nach Hause senden lassen</option>
-                        <option>2. Gutschein im Laden abholen</option>
-                    </select>
-                </div>
-    
-                <div class="note">
-                    <label for="nachricht">Nachricht</label>
-                    <textarea id="nachricht"
-                        placeholder="Sie haben noch Fragen, oder möchten uns etwas mitteilen? Dann schreiben Sie uns bitte."></textarea>
-                </div>
-    
-                <div class="field field-inline">
-                    <input type="checkbox" id="privacy" required>
-                    <label class="check" for="privacy">
-                        Ich habe die Datenschutzerklärung zur Kenntnis genommen.
-                        <a href="#">Datenschutzerklärung</a>
-                    </label>
-                </div>
-    
-                <button type="submit">Senden</button>
-            </form>
-        </div>
-    </div>
-
 
     <footer class="site-footer">
         <div class="footer-wrap">
