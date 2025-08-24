@@ -435,6 +435,7 @@ img { max-width: 100%; height: auto; display: block; }
 .card{
   position:relative;
   padding-bottom:88px;                 /* space for overlapping title */
+  text-decoration: none;                 /* space for overlapping title */
 }
 .card-media{
   margin:0;
